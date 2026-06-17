@@ -13,7 +13,7 @@ from utils.predict import (
 
 st.set_page_config(page_title="Brain Tumor Segmentation", layout="wide")
 PROJECT_ROOT = Path(__file__).resolve().parent
-DEFAULT_UNET_WEIGHTS_PATH = PROJECT_ROOT / "model" / "best_unet_weights.weights.h5"
+DEFAULT_UNET_WEIGHTS_PATH = PROJECT_ROOT / "model" / "best_unet_weights_inference.weights.h5"
 DEFAULT_UNET_THRESHOLD = 0.5
 
 
